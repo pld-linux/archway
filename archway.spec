@@ -9,8 +9,8 @@ Group:		Development/Version Control
 Source0:	http://savannah.nongnu.org/download/archway/%{name}-%{version}.tar.gz
 # Source0-md5:	6787692dbeb8cc3df3d089e552ad2622
 URL:		http://www.nongnu.org/archway/
-BuildRequires:	rpm-perlprov
 BuildRequires:	perl-Gtk2
+BuildRequires:	rpm-perlprov
 Requires:	tla
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
