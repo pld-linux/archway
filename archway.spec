@@ -1,5 +1,6 @@
 %include        /usr/lib/rpm/macros.perl
 Summary:	ArchWay is a new advanced GUI for GNU Arch
+Summary(pl):	ArchWay to nowy, zaawansowany GUI dla GNU Arch
 Name:		archway
 Version:	0.1.0
 Release:	1
@@ -16,6 +17,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 ArchWay is a new advanced GUI for GNU Arch.
+
+%description -l pl
+ArchWay to nowy, zaawansowany graficzny interfejs u¿ytkownika (GUI)
+dla GNU Arch.
 
 %prep
 %setup -q
