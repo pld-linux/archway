@@ -2,12 +2,12 @@
 Summary:	ArchWay is a new advanced GUI for GNU Arch
 Summary(pl):	ArchWay to nowy, zaawansowany GUI dla GNU Arch
 Name:		archway
-Version:	0.1.1
+Version:	0.2.0
 Release:	1
 License:	GPL
 Group:		Development/Version Control
 Source0:	http://savannah.nongnu.org/download/archway/%{name}-%{version}.tar.gz
-# Source0-md5:	8f57e3129d9d3af35bf94f4213be3e0c
+# Source0-md5:	75cb14e83c03a780222bbf28d4c8485d
 URL:		http://www.nongnu.org/archway/
 BuildRequires:	perl-Gtk2
 BuildRequires:	rpm-perlprov
