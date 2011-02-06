@@ -42,7 +42,7 @@ install -d $RPM_BUILD_ROOT%{_bindir}
 	$RPM_BUILD_ROOT%{_datadir}/%{name}/perllib/ArchWay/Session.pm
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
