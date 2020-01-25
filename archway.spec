@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	ArchWay is a new advanced GUI for GNU Arch
 Summary(pl.UTF-8):	ArchWay to nowy, zaawansowany GUI dla GNU Arch
 Name:		archway
